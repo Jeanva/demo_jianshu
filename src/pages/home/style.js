@@ -21,7 +21,7 @@ export const LeftWrapper = styled.div`
 
 export const RightWrapper =  styled.div`
     float:right;
-    width:240px;
+    width:280px;
 `;
 export const TopicWrapprer = styled.div`
     padding:20px 0 10px 0;
@@ -77,9 +77,10 @@ export const ListInfo = styled.div`
     }
 `;
 export const RecommendWrapper = styled.div`
-    display:flex;
-    flex-direction:column;
+    // display:flex;
+    // flex-direction:column;
     width:100%;
+    margin:30px 0;
 `;
 export const RecommendItem = styled.div`
     border:1px solid #dcdcdc;
@@ -89,15 +90,48 @@ export const RecommendItem = styled.div`
     padding:20px 0;
     display:block;
     width:100%;
-    background-image:url(${(props)=>props.imgUrl});
+    height:50px;
+    // background:url('https://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png');
+    background:url(${(props)=>props.imgUrl});
     background-size:contain;
 `;
 export const WriterWrapper = styled.div`
     display:flex;
     flex-direction:column;
-    
+    border:1px solid #000;
+    width:278px;
+    // border:1px solid #dcdcdc;
+    // border-radius:3px;
+    // height:300px;
+    // line-height:300px;
+    // text-align:center;
 `;
 export const WriterItem = styled.div`
     display:flex;
     flex-direction:row;
+    width:100%;
+    height:30px;
+    border:1px solid red;
+`;
+export const LoadMore =styled.div`
+    width:100%;
+    height:40px;
+    line-height:40px;
+    background:#a5a5a5;
+    margin:30px 0;
+    text-align:center;
+    border-radius:20px;
+    color:#fff; 
+    cursor:pointer;
+`;
+export const BackTop =styled.div`
+    position:fixed;
+    right:100px;
+    bottom:100px;
+    font-size:14px;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    text-align:center;
+    border:1px solid #ccc;
 `;

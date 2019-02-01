@@ -1,5 +1,5 @@
 import React from 'react';
-import {RecommendWrapper ,RecommendItem } from '../style';
+import { RecommendWrapper ,RecommendItem } from '../style';
 import { connect } from 'react-redux';
 
 class Recommend extends React.Component{
@@ -11,11 +11,9 @@ class Recommend extends React.Component{
                 // <RecommendItem key={item.get('id')} imgUrl="https://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png">
                 //     {item.get('title')}
                 // </RecommendItem>
-                <RecommendItem imgUrl={item.get('imgurl')} key={item.get('id')} atl={item.get('title')}/>
+                <RecommendItem imgUrl={item.get('imgUrl')} key={item.get('id')} alt={item.get('title')}/>
             ))
             }
-            
-            
         </RecommendWrapper>)
     }
 }
