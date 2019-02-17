@@ -9,7 +9,13 @@ class Writer extends React.PureComponent{
             {
                 list.map((item)=>(
                 <WriterItem>
-                    {item.get('name')}
+                    <img src={item.get('imgUrl')}/>
+                    <div>
+                        {item.get('name')}
+                    
+                        <div className="desc">写了{}字</div>
+                    </div>
+                    <div className="follow">+关注</div>
                 </WriterItem>
                 )
             )

@@ -31,16 +31,16 @@
     }
     ],
     "recommendList":[
-        {"id":1,"title":"推荐文章一","imgUrl":"https://upload-images.jianshu.io/upload_images/5988045-755e0a4b7e806ca3.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"},
+        {"id":1,"title":"推荐文章一","imgUrl":"https://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"},
         {"id":2,"title":"推荐文章二","imgUrl":"https://upload-images.jianshu.io/upload_images/5988045-755e0a4b7e806ca3.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"},
         {"id":3,"title":"推荐文章三","imgUrl":"https://upload-images.jianshu.io/upload_images/5988045-755e0a4b7e806ca3.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"},
         {"id":4,"title":"推荐文章四","imgUrl":"https://upload-images.jianshu.io/upload_images/5988045-755e0a4b7e806ca3.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"}
     ],
     "writerList":[
-        {"id":1,"name":"太宰治"},
-        {"id":2,"name":"莫泊桑"},
-        {"id":3,"name":"巴尔扎克"},
-        {"id":4,"name":"列夫托尔斯泰"}
+        {"id":1,"name":"太宰治","imgUrl":"https://upload.jianshu.io/users/upload_avatars/2631077/dc99c361412c?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96"},
+        {"id":2,"name":"莫泊桑","imgUrl":"https://upload.jianshu.io/users/upload_avatars/3136195/484e32c3504a.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96"},
+        {"id":3,"name":"巴尔扎克","imgUrl":"https://upload.jianshu.io/users/upload_avatars/2558050/7761b285-2805-4534-9870-ba7dcc7538ec.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96"},
+        {"id":4,"name":"列夫托尔斯泰","imgUrl":"https://img3.doubanio.com/icon/up133872899-3.jpg"}
     ]
     }
 }

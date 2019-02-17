@@ -98,20 +98,33 @@ export const RecommendItem = styled.div`
 export const WriterWrapper = styled.div`
     display:flex;
     flex-direction:column;
-    border:1px solid #000;
     width:278px;
-    // border:1px solid #dcdcdc;
-    // border-radius:3px;
-    // height:300px;
-    // line-height:300px;
-    // text-align:center;
+    
 `;
 export const WriterItem = styled.div`
     display:flex;
     flex-direction:row;
     width:100%;
-    height:30px;
-    border:1px solid red;
+    height:60px;
+    
+    font-size:13px;
+    img{
+        border-radius:50%;
+        border:1px solid #eee;
+        height:44px;
+        width:44px;
+        margin:0 10px 0 0;
+    }
+    .follow{
+        color:rgb(66, 192, 46);
+        display:right;
+        text-align:right;
+        line-height:44px;
+    }
+    .desc{
+        line-height:44px;
+        display:block;
+    }
 `;
 export const LoadMore =styled.div`
     width:100%;
